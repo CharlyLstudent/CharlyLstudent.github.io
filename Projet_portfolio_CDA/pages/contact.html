@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/src/css/input.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Contact</title>
+</head>
+<body>
+<nav class=" border-gray-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-center h-16">
+            <div class="flex">
+                <div class="-ml-2 mr-2 flex items-center">
+                    <a href="../index.html"
+                       class="text-[#FFC300] hover:text-white px-3 py-2 rounded-md text-md font-medium">Accueil</a>
+                    <a href="profil.html"
+                       class="text-[#FFC300] hover:text-white px-3 py-2 rounded-md text-md font-medium">Profil</a>
+                    <a href="hobbies.html"
+                       class="text-[#FFC300] hover:text-white px-3 py-2 rounded-md text-md font-medium">Hobbies</a>
+                    <a href="contact.html"
+                       class="text-[#FFC300] hover:text-white px-3 py-2 rounded-md text-md font-medium">Contact</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="text-center p-3">
+    <h1 class="md:text-6xl sm:text-4xl text-white font-semibold">Contact</h1>
+    <h2 class="md:text-5xl sm:text-3xl text-white font-semibold">Retrouvez moi sur les réseaux</h2>
+</div>
+
+<div class="flex justify-center p-3">
+    <img src="/src/img/cedric.png" alt="woooaaahh Cedric est tellement BG" class="w-1/4 h-auto">
+</div>
+
+<div class="flex justify-center space-x-6 p-3">
+    <a href="https://www.facebook.com" target="_blank"><img src="/src/img/facebook.png" alt="icone facebook" class="w-12 h-12"></a>
+    <a href="https://www.instagram.com" target="_blank"><img src="/src/img/instagram.png" alt="icone instagram" class="w-12 h-12"></a>
+    <a href="https://linkedin.com" target="_blank"><img src="/src/img/linkedin.png" alt="icone linkedin" class="w-12 h-12"></a>
+    <a href="https://tiktok.com" target="_blank"><img src="/src/img/tik-tok.png" alt="icone tiktok" class="w-12 h-12"></a>
+</div>
+<div class="text-center my-10">
+    <h2 class="text-white font-semibold">Ou contactez moi directement via ce formulaire</h2>
+    <form action="https://httpbin.org/post" method="post" class="max-w-md mx-auto mt-8 p-6 bg-[#191c29] rounded-md">
+        <div class="mb-4">
+            <label for="name" class="block text-gray-200 text-sm font-bold mb-2">Nom:</label>
+            <input type="text" name="name" id="name" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"/>
+        </div>
+        <div class="mb-4">
+            <label for="surname" class="block text-gray-200 text-sm font-bold mb-2">Prénom:</label>
+            <input type="text" name="surname" id="surname" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"/>
+        </div>
+        <div class="mb-4">
+            <label for="email" class="block text-gray-200 text-sm font-bold mb-2">E-mail:</label>
+            <input type="email" name="email" id="email" required class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"/>
+        </div>
+        <div class="mb-6">
+            <label for="explain" class="block text-gray-200 text-sm font-bold mb-2">Exprimez-vous:</label>
+            <textarea id="explain" name="explain" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">Bonjour, </textarea>
+        </div>
+        <div class="flex items-center justify-between">
+            <input type="submit" value="Envoyer" class="bg-[#FFC300] hover:bg-[#ffda44] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"/>
+        </div>
+    </form>
+</div>
+<footer class="bg-black flex justify-center">
+    <p class="text-white">copyright Charly 2024</p>
+</footer>
+</body>
+</html>
